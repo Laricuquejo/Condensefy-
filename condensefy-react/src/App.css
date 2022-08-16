@@ -18,6 +18,31 @@ a {
 }
 
 .container {
-  max-width: 1240px;
+  min-width: 100%;
   margin: auto;
 }
+
+
+
+/* Big devices 82rem(1312px) */
+/* @media screen and (min-width: 82rem) {
+  body {
+    background-color: pink;
+
+  }
+} */
+
+/* Medium devices 62rem(992px) */
+/* @media screen and (min-width: 62rem) {
+  footer {
+    
+  }
+} */
+
+/* Small devices 43rem(688px) */
+/* @media screen and (min-width: 43rem) {
+  body {
+    background-color: rgb(10, 56, 71);
+  }
+} */
+

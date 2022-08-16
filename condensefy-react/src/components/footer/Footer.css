@@ -1,79 +1,73 @@
-.footer {
+
+.content-container {
     width: 100%;
     padding: 2rem 0;
     background: url('../../img/footer.png') no-repeat center center/cover;
-    margin: auto;
     color: #ffffff;
+    margin: auto;
     font-size: 0.7rem;
 }
+.left-panel {
+    display: inline-block;
 
- .footer {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
+    margin-left: 65rem;
+    margin-right: 1rem;
 }
 
-.social {
-    display: grid;
-    grid-template-columns: repeat(4, 0.2fr);
-    margin-left: 20rem;    
+.text-contact {
+    margin-top: 0.5rem;
 }
 
-.icon {
+
+.middle-panel {
+    margin-top: 1rem;
     font-size: 1.5rem;
-    margin-top: 1rem;
-    color: black;
 }
 
-.text-footer {
-    margin-left: 7rem;
-    margin-left: 39rem;
-    margin-top: 1rem;
+.row {
+    display: flex;
+    height: 100%;
 }
 
-.title1 {
-    margin-left: 40rem;
-}
-
-.title2 {
-    margin-left: 20rem;
-}
-
-@media screen and (max-width: 940px) {
-    .footer {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 3rem;
-        margin: 0;
+@media screen and (min-width: 320px) and (max-width: 575px) {
+    .content-container {
+        max-width: 100%;
+        min-width: 100%;
+        padding: 0.5rem 0;
+        background: url('../../img/footer.png') no-repeat center center/cover;
+        color: #ffffff;
+        font-size: 0.6rem;
     }
-
-    .text-footer {
+    .left-panel {
+        display: inline-block;
+        margin-left: 2rem;
         
-        margin-left: 2rem;
-        margin-top: 1rem;
-    }
 
-    .title1 {
-        margin-left: 2rem;
-        font-size: 1rem;
     }
     
-    .title2 {
-        margin-left: -3rem;
-        font-size: 1rem;
+    .middle-panel {
+        margin-top: 6rem;
     }
 
-    .social {
-        display: grid;
-        grid-template-columns: repeat(4, 0.2fr);
-        margin-left: -1.5rem;    
+    .text-contact {
+        margin-top: 0.5rem;
     }
+}
 
-    .icon {
-    font-size: 1.5rem;
-    margin-top: 1rem;
-    color: black;
-    
-    }
-
+@media screen and (min-width: 575px) and (max-width: 767px) {
 
 }
+
+@media screen and (min-width: 767px) and (max-width: 940px) {
+
+}
+
+@media screen and (min-width: 940px) and (max-width: 1075px) {
+
+}
+
+
+
+
+
+
