@@ -30,3 +30,22 @@
     margin: auto;
     padding: 7rem;
 }
+
+@media screen and (max-width:940px) {
+    .wrapper {
+        margin: 3rem 0;
+    }
+
+    .wrapper > div p{
+        margin: 1rem;
+        font-size: 1rem;
+    }
+
+    .wrapper > .container {
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+        padding: 1rem;
+    }
+
+
+}

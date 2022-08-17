@@ -17,8 +17,8 @@ There are many 0000 , some sector-specic, some too versatile and customizable, s
 istics that make it suitable or unsuitable for an organization, and can induce specic demands on the organization. We conduct process mapping, analyze business goals, and organizational
 
 culture, to assess t of 0000 systems to the unique organizational makeup of your people, processes, and technology, enabling you to select a 0000 relatively better suited for your business.</p>
-            </div>    
-        </div>
+            </div>
+        </div>      
     )
 }
 

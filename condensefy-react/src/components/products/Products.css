@@ -1,11 +1,11 @@
-
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 .wrapper {
     width: 100%;
     margin: 4rem 0;
     text-align: left;
-
-    
+    font-family: Montserrat;
+    font-weight: 400; 
 }
 
 .wrapper > div {
@@ -21,7 +21,7 @@
 .wrapper .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 4.2rem;
+    grid-gap: 5.2rem;
     padding: 4rem;
 }
 
@@ -37,17 +37,6 @@
 
 
 @media screen and (max-width:940px) {
-    /* .row-product .products-img {
-        background-color: aqua;
-        display: grid;
-        
-        
-  
-        
-        
-
-    } */
-
     .wrapper {
         margin: 3rem 0;
     }

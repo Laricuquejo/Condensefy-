@@ -1,8 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
 .overview {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 0.9rem;
     background-color: #232323;
     color: #e4e4e4;
-    
-    
 }
 
 .overview-content {
@@ -16,4 +19,8 @@
     color: #15a6d8;
     text-align: start;
     margin-bottom: 0.5rem;
+}
+
+.black-section {
+    background-color: black;
 }
